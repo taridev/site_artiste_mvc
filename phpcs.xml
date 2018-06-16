@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<ruleset name="blog">
+    <description>Règles de formattage applicables au projet de blog</description>
+
+    <arg name="colors"/>
+    <arg value="p"/>
+
+    <file>app</file>
+    <file>public/</file>
+    <file>page/</file>
+
+    <exclude-pattern>*vendor/*</exclude-pattern>
+
+    <rule ref="PSR2"></rule>
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax"></rule>
+    <rule ref="Squiz.Strings.DoubleQuoteUsage.ContainsVar"></rule>
+</ruleset>
