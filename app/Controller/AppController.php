@@ -18,7 +18,7 @@ class AppController extends Controller
 
     public function getTemplate()
     {
-        return $template;
+        return $this->template;
     }
 
     protected function loadModel($model_name)
